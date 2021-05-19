@@ -9,3 +9,6 @@ motif_lists used in this analysis are provided in PWM format.
 run_cluster_slurm_array.pl contains a perl script to submit jobs to a server with srun. 
 
 Motif_Probability_Analysis.py loads in a UTR file, loads a dictionary of trinucleotide contexts for the mutations, generates one permutation, and counts the number of each type of element that gets mutated. These output files can be glued together to generate the distribution for each with get_data.py
+
+
+DOI: 10.5281/zenodo.8475
